@@ -45,7 +45,7 @@ class Widget extends InputWidget
 
         $this->attributes = $this->model->attributes();
 
-        $data = ($this->data) ? $this->data->asArray()->all() : [];
+        $data = ($this->data) ? $this->data->all() : [];
 
         echo '<div id="'.$inputId.'" >';
 
